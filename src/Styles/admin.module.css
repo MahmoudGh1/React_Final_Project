@@ -1,0 +1,67 @@
+.page {
+  min-height: 100vh;
+  background-color: azure;
+  padding: 40px 24px;
+  font-family: sans-serif;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: "100%";
+  margin: 0 auto 36px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 32px;
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.errorWrap {
+  max-width: 1100px;
+  margin: 0 auto 20px;
+}
+
+.tableWrap {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #222;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.row, .row_1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.column{
+  display: grid;
+  gap: 16px;
+  align-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.topicsHint {
+  color: #555;
+  font-size: 0.72rem;
+  margin-top: 4px;
+}
+
+.formActions {
+  display: flex;
+  gap: 10px;
+}

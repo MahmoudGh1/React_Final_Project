@@ -1,0 +1,82 @@
+.page {
+  min-height: 100vh;
+  background: #0a0a0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  background: #13131a;
+  border: 1px solid #222;
+  border-radius: 16px;
+  padding: 52px;
+  text-align: center;
+  max-width: 480px;
+  width: 100%;
+}
+
+.icon {
+  font-size: 3.5rem;
+  margin-bottom: 16px;
+}
+
+.heading {
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+}
+
+.headingSuccess { color: #ffd700; }
+.headingFailed  { color: #ff4d4d; }
+
+.sub {
+  color: #888;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.courseList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.courseItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #1a1a24;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.checkmark {
+  color: #ffd700;
+  font-weight: 900;
+}
+
+.courseTitle {
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.emailNote {
+  color: #666;
+  font-size: 0.82rem;
+  margin-bottom: 16px;
+}
+
+.btn {
+  background: #ffd700;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+}

@@ -1,0 +1,104 @@
+.page {
+  min-height: 100vh;
+  background: #0a0a0f;
+  padding: 40px 24px;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto 8px;
+}
+
+.heading {
+  color: #ffd700;
+  font-size: 2.2rem;
+}
+
+.sub {
+  color: #888;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  background: #13131a;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 28px;
+  cursor: pointer;
+  transition: border-color 0.25s, transform 0.25s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: #1a3a1a;
+  color: #4caf50;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid #4caf50;
+}
+
+.level {
+  color: #ffd700;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.cardDesc {
+  color: #888;
+  font-size: 0.9rem;
+  flex-grow: 1;
+}
+
+.meta {
+  display: flex;
+  gap: 16px;
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.price {
+  color: #ffd700;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.viewBtn {
+  color: #888;
+  font-size: 0.85rem;
+}

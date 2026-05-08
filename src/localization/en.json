@@ -1,0 +1,146 @@
+{
+  "navigation": {
+    "home": "Home",
+    "courses": "Courses",
+    "about": "About",
+    "contactus": "Contact Us",
+    "profile": "Profile",
+    "login": "Login",
+    "Logout": "Logout"
+  },
+  "adminPage": {
+    "course": "Courses",
+    "addNewCourse": "+ Add Course",
+    "warning": "Something wrong has happened",
+    "noCourse": "No courses yet. Add one →",
+    "edit": "Edit",
+    "delete": "Delete",
+    "editCourse": "Edit Course",
+    "newCourse": "New Course",
+    "level": "Level",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "comaSep": "Comma-separated List",
+    "saveChange": "Save Changes",
+    "addCourse": "Add Course",
+    "cancel": "Cancel",
+    "metadata": "additional",
+    "price": "Price",
+    "actions": "Actions"
+  },
+  "notFoundPage": {
+    "notFound": "Page not found",
+    "backHome": "Back to home"
+  },
+  "homePage": {
+    "academy": "American - Academy",
+    "signin": "Sign In",
+    "createAccount": "Create Account"
+  },
+  "profilePage": {
+    "details": "Profile details",
+    "profile": "Profile",
+    "name": "Name",
+    "save": "Save",
+    "updateName": "Update Name",
+    "updateEmail": "Update Email",
+    "updateGender": "Update Gender",
+    "updatePassword": "Change Password",
+    "email": "Email",
+    "gender": "Gender",
+    "security": "Security",
+    "password": "Password",
+    "admin": "Admin",
+    "myCourses": "My Courses",
+    "adminPage": "Go to admin page"
+  },
+  "loginPage": {
+    "login": "Log in",
+    "email": "Email",
+    "password": "Password",
+    "noAccount": "Don't have account yet?",
+    "incorrectPassword": "Incorrect Password.",
+    "incorrectEmail": "Incorrect Email."
+  },
+  "registerPage": {
+    "register": "Register",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female"
+  },
+  "coursePage": {
+    "heading": "Our Courses",
+    "sub": "One-time payment. Lifetime access.",
+    "inCart": "In Cart ✓",
+    "viewDetails": "View Details →"
+  },
+  "courseDetail": {
+    "backBtn": "← Back",
+    "backToCourses": "← All Courses",
+    "duration": "on-demand video",
+    "lessons": "lessons",
+    "lifetime": "Full lifetime access",
+    "certificate": "Certificate of completion",
+    "includes": "This course includes:",
+    "learnTitle": "What you will learn",
+    "oneTime": "One-time payment",
+    "addToCart": "Add to Cart",
+    "goToCart": "Go to Cart",
+    "inCartMsg": "✓ Added to cart",
+    "browseMore": "Browse More Courses",
+    "notFound": "Course not found."
+  },
+  "cart": {
+    "heading": "My Cart",
+    "course": "course",
+    "courses": "courses",
+    "backToCourses": "← Back to Courses",
+    "hint": "Choose the courses you want to get from your cart list as you need",
+    "orderSummary": "Order Summary",
+    "noSelection": "No courses selected yet.\nCheck the ones you want to pay for.",
+    "total": "Total",
+    "proceedToPay": "Proceed to Pay",
+    "selectHint": "Select at least one course to continue",
+    "emptyTitle": "Your cart is empty",
+    "emptySub": "Browse our courses and add what interests you.",
+    "browseCourses": "Browse Courses"
+  },
+  "checkout": {
+    "backToCart": "← Back to Cart",
+    "orderSummary": "Order Summary",
+    "paymentDetails": "Payment Details",
+    "preparing": "Preparing your payment...",
+    "error": "Error: ${error}",
+    "total": "Total"
+  },
+  "payment": {
+    "pay": "Pay ",
+    "processing": "Processing..."
+  },
+  "result": {
+    "successTitle": "Payment Successful!",
+    "failedTitle": "Payment Failed",
+    "enrolledIn": "You are now enrolled in:",
+    "emailNote": "Check your email for access details.",
+    "failedSub": "Something went wrong. Please try again.",
+    "browseMore": "Browse More Courses",
+    "tryAgain": "Try Again"
+  },
+  "Footer": "2026 @ ITI. All Rights Reserved.",
+  "aboutPage": {
+    "aboutus": "About Us",
+    "hook": "Discover our journey and get to know the team behind our success.",
+    "ourStory": "Our Story",
+    "story": "We started with a mission to provide quality and innovation in our field. Throughout the years, we've faced challenges, celebrated achievements, and grown into the company we are proud to showcase today. Join us as we continue to evolve.",
+    "meetTeam": "Meet the Team",
+    "ourMission": "Our Mission",
+    "mission": "At the core of our business is a commitment to innovation, quality, and our community. Our mission is to deliver exceptional service and value to our customers, inspiring a positive impact on society.",
+    "cta": "Get in Touch",
+    "ctaDesc": "Interested in learning more about us or our services? Don't hesitate to reach out.",
+    "contactUs": "Contact Us"
+  }
+}

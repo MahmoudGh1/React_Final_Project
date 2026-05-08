@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.aboutus h2{
+    font-size: 22pt;
+}
+
+.aboutus img{
+    height: 540px;
+    border: 3px solid black;
+    border-radius: 13px;
+
+}
+
+.paragraph{
+    font-size: 14pt;
+}

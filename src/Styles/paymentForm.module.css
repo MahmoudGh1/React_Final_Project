@@ -1,0 +1,28 @@
+.form {
+  width: 100%;
+}
+
+.errorMessage {
+  color: #ff4d4d;
+  margin-top: 16px;
+  font-size: 0.9rem;
+}
+
+.submitBtn {
+  margin-top: 28px;
+  width: 100%;
+  padding: 14px;
+  background: #ffd700;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submitBtnProcessing {
+  background: #555;
+  cursor: not-allowed;
+}

@@ -1,0 +1,290 @@
+.page {
+  min-height: 100vh;
+  background: #0a0a0f;
+  padding: 32px 24px;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto 32px;
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  color: #ffd700;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.heading {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 800;
+  flex-grow: 1;
+}
+
+.itemCount {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hint {
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: #13131a;
+  border: 2px solid #222;
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.cardChecked {
+  border-color: #ffd700;
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 2px solid #555;
+  flex-shrink: 0;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  background: transparent;
+}
+
+.checkboxChecked {
+  background: #ffd700;
+  border-color: #ffd700;
+}
+
+.checkmark {
+  color: #000;
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+
+.cardBody {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.cardLevel {
+  color: #ffd700;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.cardTitle {
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cardDesc {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.cardPrice {
+  color: #ffd700;
+  font-size: 1.3rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.cardMeta {
+  display: flex;
+  gap: 20px;
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.removeBtn {
+  background: none;
+  border: none;
+  color: #444;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: color 0.2s;
+  flex-shrink: 0;
+}
+
+.summary {
+  background: #13131a;
+  border: 1px solid #222;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 24px;
+}
+
+.summaryTitle {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.divider {
+  height: 1px;
+  background: #222;
+}
+
+.noSelection {
+  color: #555;
+  font-size: 0.85rem;
+  text-align: center;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+.selectedList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selectedRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectedTitle {
+  color: #ccc;
+  font-size: 0.88rem;
+}
+
+.selectedPrice {
+  color: #ffd700;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalLabel {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.totalPrice {
+  color: #ffd700;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.checkoutBtn {
+  background: #ffd700;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-weight: 800;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.checkoutBtnDisabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.selectHint {
+  color: #555;
+  font-size: 0.78rem;
+  text-align: center;
+  margin-top: -8px;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 16px;
+}
+
+.emptyIcon {
+  font-size: 4rem;
+}
+
+.emptyTitle {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.emptySub {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.browseBtn {
+  background: #ffd700;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+}
