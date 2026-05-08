@@ -1,0 +1,69 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "React Masterclass",
+      "price": 29,
+      "description": "Hooks, Redux, and beyond",
+      "longDescription": "Master modern React from the ground up. You will learn hooks deeply, manage global state with Redux Toolkit, handle async flows, and build production-grade UIs.",
+      "duration": "12 hours",
+      "lessons": 48,
+      "level": "Intermediate",
+      "topics": [
+        "React Hooks",
+        "Redux Toolkit",
+        "React Router",
+        "Performance Optimization",
+        "Testing"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Node.js & Express",
+      "price": 24,
+      "description": "Build REST APIs from scratch",
+      "longDescription": "Go deep into Node.js internals and build scalable REST APIs with Express. Covers middleware, auth, file uploads, and deployment.",
+      "duration": "10 hours",
+      "lessons": 38,
+      "level": "Beginner",
+      "topics": [
+        "Node.js Core",
+        "Express Middleware",
+        "JWT Auth",
+        "File Uploads",
+        "Deployment"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Full Stack MERN",
+      "price": 49,
+      "description": "Complete frontend + backend",
+      "longDescription": "Build complete full-stack applications using MongoDB, Express, React, and Node.js. You will ship three real-world projects by the end.",
+      "duration": "22 hours",
+      "lessons": 84,
+      "level": "Advanced",
+      "topics": [
+        "MongoDB Atlas",
+        "REST APIs",
+        "React Frontend",
+        "Auth System",
+        "Deployment on Vercel"
+      ]
+    },
+    {
+      "title": "Hema",
+      "description": "tete",
+      "longDescription": "123",
+      "level": "Beginner",
+      "duration": "12 Hours",
+      "lessons": 24,
+      "price": 13,
+      "topics": [
+        "awidiawndoawndoaiwndoawnid"
+      ],
+      "id": "qQ8ysROwLxc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

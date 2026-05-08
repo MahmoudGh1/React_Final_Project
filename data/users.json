@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "username": "RudCandyyyy",
+      "password": "158",
+      "email": "t@gmail.com",
+      "gender": "Male",
+      "role": "admin",
+      "courses": [
+        {
+          "id": "1",
+          "title": "React Masterclass",
+          "price": 29,
+          "description": "Hooks, Redux, and beyond",
+          "longDescription": "Master modern React from the ground up. You will learn hooks deeply, manage global state with Redux Toolkit, handle async flows, and build production-grade UIs.",
+          "duration": "12 hours",
+          "lessons": 48,
+          "level": "Intermediate",
+          "topics": [
+            "React Hooks",
+            "Redux Toolkit",
+            "React Router",
+            "Performance Optimization",
+            "Testing"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Node.js & Express",
+          "price": 24,
+          "description": "Build REST APIs from scratch",
+          "longDescription": "Go deep into Node.js internals and build scalable REST APIs with Express. Covers middleware, auth, file uploads, and deployment.",
+          "duration": "10 hours",
+          "lessons": 38,
+          "level": "Beginner",
+          "topics": [
+            "Node.js Core",
+            "Express Middleware",
+            "JWT Auth",
+            "File Uploads",
+            "Deployment"
+          ]
+        }
+      ],
+      "id": "UEsaULW0ZK0"
+    },
+    {
+      "username": "Mahmoud",
+      "password": "123",
+      "email": "a@gmail.com",
+      "gender": "Male",
+      "id": "gci0Y9oZ_ek",
+      "role": "user",
+      "courses": [
+        {
+          "id": "1",
+          "title": "React Masterclass",
+          "price": 29,
+          "description": "Hooks, Redux, and beyond",
+          "longDescription": "Master modern React from the ground up. You will learn hooks deeply, manage global state with Redux Toolkit, handle async flows, and build production-grade UIs.",
+          "duration": "12 hours",
+          "lessons": 48,
+          "level": "Intermediate",
+          "topics": [
+            "React Hooks",
+            "Redux Toolkit",
+            "React Router",
+            "Performance Optimization",
+            "Testing"
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
